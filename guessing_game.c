@@ -9,12 +9,12 @@ int main(){
     // printf("random number: %d\n",num);
     do
     {
-        printf("Guess a number : \n");
+        printf("Guess a number: ");
         scanf("%d",&gnum);
         if(num>gnum)
         printf("Higher number please\n");
         else if(num<gnum)
-        printf("LOwer number please\n");
+        printf("Lower number please\n");
         else
         printf("You guessed the correct number in %d attempts\n",attempt);
         attempt=attempt+1;
